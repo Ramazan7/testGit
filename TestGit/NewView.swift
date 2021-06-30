@@ -20,6 +20,8 @@ struct NewView: View {
                 .navigationBarItems(trailing: Button("Close"){
                     self.presentationMode.wrappedValue.dismiss()
                 })
+                
+            .background(Image("planet"))
         }
        
        
